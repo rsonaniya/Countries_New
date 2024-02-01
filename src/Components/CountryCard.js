@@ -23,7 +23,7 @@ function CountryCard({ country, index }) {
         </p>
         <p className="text-center">
           <a href={country.maps.googleMaps} target="_blank" rel="noreferrer">
-            <button className="btn">
+            <button className="btn btn-outline-secondary">
               Location on Map <i className="bi bi-geo-alt-fill"></i>
             </button>
           </a>
