@@ -6,3 +6,7 @@
 input:focus {
   outline: none;
 }
+
+li {
+  cursor: pointer;
+}
